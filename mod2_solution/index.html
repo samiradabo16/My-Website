@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  
+    </head>
+<body>
+
+        
+ <style>
+          
+* {
+  -web-kit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  background: #F5F5F5;
+}
+
+.custom_section {
+display: block;
+width: 100%;
+padding: 50px 15px 50px 15px;
+}
+
+.custom_section_header{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding-bottom: 32px;
+}
+.custom_section_header h3{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+    line-height: 42px;
+color: #282726;
+margin:0px;
+}
+
+.custom_section_box {
+display: flex;
+margin: 0px -15px;
+flex-wrap: wrap;
+}
+.custom_section_single_box {
+   
+   flex: 0 0 33.333%;
+   padding: 15px 15px;
+   max-width: 33.33%;
+}
+.custom_section_single_box_tag{
+width: 100%;
+display: flex;
+height: 100%;
+padding: 60px 20px 30px  20px;
+position: relative;
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgb(117 131 142 / 24%);
+border-radius: 4px;
+border: 1px solid #000;
+
+}
+.custom_section_single_box_tag p {
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+    line-height: 24px;
+color: rgba(0, 0, 0, 0.6);
+margin: 0px;
+}
+
+
+.custom_section_single_box_tag span{
+    width: 140px;
+    height: 42px;
+    align-items: center;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 8%);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 14px;
+    border: 1px solid #000;
+  }
+.custom_section_single_box_tag span.chicken{
+background-color: #ff9f9f;
+}
+.custom_section_single_box_tag span.beef{
+background-color: #ff3232;
+}
+.custom_section_single_box_tag span.sushi{
+background-color: #ffb24c;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .custom_section_single_box {
+   flex: 0 0 50%;
+   max-width: 50%;
+}
+.custom_section_single_box:last-child{
+    flex: 0 0 100%;
+   max-width: 100%;
+}
+
+}
+
+@media (max-width: 767px) {
+     .custom_section_single_box {
+   flex: 0 0 100%;
+   max-width: 100%;
+} 
+}
+
+
+</style>
+<section class="custom_section">
+
+<div class="custom_section_header">
+<h3>Our Menu</h3>
+</div>
+<div class="custom_section_box">
+<div class="custom_section_single_box">
+<div class="custom_section_single_box_tag">
+<span class="chicken">Chicken</span>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+</div>
+
+<div class="custom_section_single_box">
+    <div class="custom_section_single_box_tag">
+    <span class="beef">Beef</span>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    </div>
+    </div>
+    <div class="custom_section_single_box">
+        <div class="custom_section_single_box_tag">
+        <span class="sushi">Sushi</span>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+        </div>
+
+</div>
+
+</section>
+                                                                    
+                                                                    
+
+
+</body>
+</html>
